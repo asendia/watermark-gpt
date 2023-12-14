@@ -1,4 +1,5 @@
 # Watermark GPT
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f7c909c4-d3c7-42ae-9d97-5819dc177600/deploy-status)](https://app.netlify.com/sites/watermark-gpt/deploys)
 
 Watermark GPT allows you to add a customizable watermark to any image. It supports drag-and-drop and click-to-upload functionality, and the watermark text is dynamically sized based on the image dimensions.
 
