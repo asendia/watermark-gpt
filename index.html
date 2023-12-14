@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Watermark GPT</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="drop-area">
+      <p>Drag and drop an image here or click to select</p>
+      <input
+        type="file"
+        id="fileElem"
+        accept="image/*"
+        onchange="handleFiles(this.files)"
+      />
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
